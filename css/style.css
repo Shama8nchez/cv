@@ -102,7 +102,7 @@
   margin-bottom: 30px;
 }
 
-.asside__title {
+.aside__title {
   margin-bottom: 10px;
   padding-left: 10px;
   font-family: 'Poppins';
@@ -130,4 +130,32 @@
 .contacts__list_item-value,
 .languages__list_item-value {
   color: rgb(49, 105, 174);
+}
+
+.main__content {
+  max-width: 880px;
+  flex-grow: 1;
+  padding: 25px;
+}
+
+.main__title {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  /* border-left: 10px solid rgb(49, 105, 174);
+  border-bottom: 1px solid rgb(49, 105, 174); */
+}
+
+.about {
+  margin-bottom: 45px;
+}
+
+.about__content {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
 }
