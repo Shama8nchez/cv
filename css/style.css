@@ -94,6 +94,7 @@
 }
 
 .aside {
+  position: relative;
   padding: 20px 10px;
   width: 320px;
   background-color: rgb(36, 36, 36);
@@ -340,6 +341,20 @@
   height: 563px;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 57px);
+  height: 45px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
 @media (max-width: 1024px) {
   .header__title_name {
     font-size: 36px;
@@ -399,6 +414,11 @@
     order: 2;
     padding: 20px 10px 0 10px;
   }
+
+  .contacts,
+.languages {
+  margin-bottom: 75px;
+}
 
   .contacts {
     order: 2;
