@@ -191,6 +191,13 @@
   font-weight: 400;
 }
 
+#cert-pre,
+#cert-fe {
+  color: rgb(49, 105, 174);
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .skills__list {
   display: flex;
   flex-wrap: wrap;
