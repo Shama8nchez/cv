@@ -13,12 +13,18 @@ items.forEach((item) => {
 });
 
 const certPre = document.getElementById('cert-pre');
+const certFE = document.getElementById('cert-fe');
 const popup = document.querySelector('.popup');
 const certContainer = document.querySelector('.certificate_container');
 
 certPre.addEventListener('click', () => {
   popup.classList.add('popup-active');
   certContainer.innerHTML = '<img src="./img/cert1.JPG" alt="certificate" class="certificate">';
+});
+
+certFE.addEventListener('click', () => {
+  popup.classList.add('popup-active');
+  certContainer.innerHTML = '<img src="./img/certfe.JPG" alt="certificate" class="certificate">';
 });
 
 popup.addEventListener('click', (e) => {
